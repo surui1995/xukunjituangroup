@@ -64,13 +64,13 @@
 **[更多demo](http://herozhou.coding.me/vue-framework-wz/#/dashboard)**
 
 
-## 系列教程
+<!-- ## 系列教程
 
 [《一步步带你做vue后台管理框架》第一课：介绍框架](http://www.cnblogs.com/herozhou/p/7434931.html)
 
 [《一步步带你做vue后台管理框架》第二课：上手使用](http://www.cnblogs.com/herozhou/p/7441702.html)
 
-[《一步步带你做vue后台管理框架》第三课：登录功能](http://www.cnblogs.com/herozhou/p/7469667.html)
+[《一步步带你做vue后台管理框架》第三课：登录功能](http://www.cnblogs.com/herozhou/p/7469667.html) -->
 
 ## Run 开发 
 ```bash
