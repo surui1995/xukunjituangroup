@@ -289,45 +289,41 @@
 </template>
 
 <script>
-
 export default {
-  name: 'buttons',
+  name: "buttons",
 
-   data () {
-            return {
-                loading: false,
-                loading2: false
-            }
-        },
-        methods: {
-            toLoading () {
-                this.loading = true;
-            },
-            toLoading2 () {
-                this.loading2 = true;
-            }
-        }
-}
-
-
+  data() {
+    return {
+      loading: false,
+      loading2: false
+    };
+  },
+  methods: {
+    toLoading() {
+      this.loading = true;
+    },
+    toLoading2() {
+      this.loading2 = true;
+    }
+  }
+};
 </script>
 
 
 <style scoped lang="css">
-  .btn {
-     margin-bottom: 4px;
-  }
-  
-    .showallcode{
-            height: 100px;
-    }
-    .hidecode{
-            height: 100%;
-    }
-    .highlight{
-         transition:1000ms ease all;
-    }
+.btn {
+  margin-bottom: 4px;
+}
 
+.showallcode {
+  height: 100px;
+}
+.hidecode {
+  height: 100%;
+}
+.highlight {
+  transition: 1000ms ease all;
+}
 </style>
 
 

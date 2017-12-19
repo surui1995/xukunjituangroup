@@ -3,12 +3,12 @@
     <nav class="sidebar-nav">
     
       <sidebar-item :routes='siderbar_routers.children'></sidebar-item>
-
+      
     </nav>
   </div>
 </template>
 <script>
-   import SidebarItem from './SidebarItem';
+import SidebarItem from './SidebarItem';
 import { mapGetters } from 'vuex';
 export default {
   name: 'sidebar',

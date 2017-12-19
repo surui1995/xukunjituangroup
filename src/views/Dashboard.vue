@@ -2,11 +2,11 @@
   <div class="animated fadeIn">
 
 
- <Row >
+ <!-- <Row >
 
     <Col :sm="24" :md="8">
-        <h3>👍WZ后台管理框架👍</h3>
-        <h5> <a href="https://github.com/herozhou/vue-framework-wz" target="_blank">github地址（喜欢就点个start呗）</a>  </h5>
+        <h3>👍后台管理框架👍</h3>
+        <!-- <h5> <a href="https://github.com/herozhou/vue-framework-wz" target="_blank">github地址（喜欢就点个start呗）</a>  </h5> 
     </Col>
         
 
@@ -287,16 +287,7 @@
 
         </Col>
      
-    </Row>
-
-
-
-
-
-
-   
-
-
+    </Row>-->
   </div>
 </template>
 
@@ -340,13 +331,13 @@ export default {
   mounted() {
     const token = this.$store.getters.token;
 
-    this.$Notice.success({
-      title: "欢迎使用 WZ 框架",
-      desc: `你的账户权限是 ${token} 
-                            <br>
-                            喜欢就去github给个 start 鼓励一下吧`,
-      duration: 10
-    });
+    // this.$Notice.success({
+    //   title: "欢迎使用 WZ 框架",
+    //   desc: `你的账户权限是 ${token} 
+    //                         <br>
+    //                         喜欢就去github给个 start 鼓励一下吧`,
+    //   duration: 10
+    // });
   }
 };
 </script>

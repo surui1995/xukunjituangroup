@@ -56,7 +56,7 @@ option : {
     backgroundColor: '#49586e',
     title: {
         text: '注册资金',
-        x: '20%',
+        x: '25%',
         y: 'center',
         textStyle: {
             fontWeight: 'normal',

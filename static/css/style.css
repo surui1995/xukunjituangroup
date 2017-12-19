@@ -2567,8 +2567,9 @@ base-chart.chart {
 .app-header.navbar .nav-item {
     position: relative;
     min-width: 50px;
-    margin: 0!important;
-    text-align: center
+    /* margin: 0!important; */
+    text-align: center;
+    margin-left: 10px;
 }
 
 .app-header.navbar .nav-item button {
@@ -2667,7 +2668,7 @@ base-chart.chart {
     overflow-y: auto;
     -ms-overflow-style: -ms-autohiding-scrollbar;
     width: 200px;
-    top:80px;
+   
 }
 
 .sidebar .nav {

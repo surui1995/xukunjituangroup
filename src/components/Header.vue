@@ -5,7 +5,7 @@
     <p class="" style="color:white;float:left;margin-left: 10px;
     margin-top: 0px;
     font-size: 18px;">卡地之家后台管理系统</p>
-    <div id="timo">
+    <!-- <div id="timo" >
     <a href="javascript:void(0)" style="float: left;margin-left: -143px; margin-top: 133px;" >
            <span slot="button">
           <img src="static/img/avatars/6.jpg" class="img-avatar" alt="o" style="width: 80px;
@@ -16,7 +16,7 @@
     margin-left: -61px;">admin</span>
           </span>
         </a>
-    </div>    
+    </div>     -->
     
     <ul class="nav navbar-nav d-md-down-none">
       <li class="nav-item">
@@ -26,7 +26,7 @@
     </ul>
     <ul class="nav navbar-nav d-md-down-none">
       <li class="nav-item">
-         <Button type="ghost" shape="circle" icon="ios-search"></Button>
+        <Input v-model="value4" icon="ios-search" placeholder="搜索" style="width: 200px"></Input>         
       </li>
      
     </ul>
@@ -80,32 +80,32 @@
         <a href="javascript:void(0)">
            <span slot="button">
           <img src="static/img/avatars/6.jpg" class="img-avatar" alt="o">
-          <span class="d-md-down-none">admin</span>
+          <span class="d-md-down-none" style="margin-left:10px;">admin</span>
           </span>
         </a>
         <Dropdown-menu slot="list">
             <Dropdown-item>
-              <p class="dropdown-itemp"><Icon type="alert"></Icon>Updates<span class="badge badge-info">42</span></p>
+              <p class="dropdown-itemp"><Icon type="alert"></Icon>更新<span class="badge badge-info">2</span></p>
 
             
             </Dropdown-item>
             <Dropdown-item>
-              <p class="dropdown-itemp"><Icon type="chatbox-working"></Icon>Messages<span class="badge badge-success">42</span></p>
+              <p class="dropdown-itemp"><Icon type="chatbox-working"></Icon>消息<span class="badge badge-success">42</span></p>
 
             </Dropdown-item>
              <Dropdown-item>
-              <p class="dropdown-itemp">  <Icon type="chatbox-working"></Icon>Messages<span class="badge badge-danger">42</span></p>
+              <p class="dropdown-itemp">  <Icon type="chatbox-working"></Icon>消息<span class="badge badge-danger">42</span></p>
 
            </Dropdown-item>
               <Dropdown-item divided>
-              <p class="dropdown-itemp"><Icon type="android-contact"></Icon> Profile</p>
+              <p class="dropdown-itemp"><Icon type="android-contact"></Icon> 轮廓</p>
 
               </Dropdown-item>
             <Dropdown-item >
-              <p class="dropdown-itemp"><Icon type="android-settings"></Icon> Settings</p>
+              <p class="dropdown-itemp"><Icon type="android-settings"></Icon> 设置</p>
               </Dropdown-item>
 
-                 <Dropdown-item > <a href="" @click="Logout"  ><p  class="dropdown-itemp"><Icon type="power"></Icon>Logout</p></a></Dropdown-item>
+                 <Dropdown-item > <a href="" @click="Logout"  ><p  class="dropdown-itemp"><Icon type="power"></Icon>退出</p></a></Dropdown-item>
 
         </Dropdown-menu>
     </Dropdown>
@@ -117,17 +117,17 @@
     </ul>
   </navbar>
 </template>
-
-<script>
-$(function(){  
-    $('#lol').click(function(){//点击a标签  
-        if($('#timo').is(':hidden')){//如果当前显示  
-        $('#timo').hide();//那么就隐藏div  
-        }else{//否则  
-        $('#timo').show();//就显示div  
-        }  
-    })  
-})  
+<script type="text/javascript" src="http://www.sz886.com/js/jquery-1.9.1.min.js"></script>
+ <script type="text/javascript"> 
+$(document).ready(function(e) { 
+    $("#lol").click(function(){
+         if(!$("#timo").is(":visible")){
+          $("#timo").hide(); 
+         }else{ 
+          $("#timo").show(); 
+        }
+    });      
+});
 </script>
 <script>
 

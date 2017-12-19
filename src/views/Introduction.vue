@@ -2,15 +2,15 @@
   <div class="animated fadeIn">
 
 
-<Row>
+<!-- <Row>
     <Col :md="24">
           <intro-chart-count> </intro-chart-count>
 
     </Col>
 
-</Row>
+</Row> -->
 
- <Row>
+ <!-- <Row>
         <Col span="24" >
           <h3 style="text-align:center">特性</h3>
             
@@ -56,20 +56,18 @@
             
         </Col>
 
-    </Row>
-
-
- <Row>
+    </Row> -->
+ <!-- <Row>
         <Col span="24" >
           <h3 style="text-align:center">教程</h3>
             
         </Col>
-    </Row>
+    </Row> -->
 
 
 
 
- <Row>
+ <!-- <Row>
         <Col :md="12" >
           
           <p><a href="http://www.cnblogs.com/herozhou/p/7434931.html" target="_blank">一步步带你做vue后台管理框架(一)——介绍框架</a></p>
@@ -130,10 +128,7 @@
 
         </Col>
      
-    </Row>
-
-
-
+    </Row> -->
   </div>
 </template>
 
